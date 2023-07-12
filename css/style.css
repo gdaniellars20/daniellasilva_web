@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,700;0,900;1,500&display=swap');
+
+/*Selector universal*/
+*{
+    font-family: 'Poppins', sans-serif;
+    /*reset*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*html{
+    font-size: 62.5%;
+}*/
+
+h1{
+    color: blue;
+}
+
+h2{
+    color: blue;
+}
+
+p{
+    color: blue;
+}
+
+.box-top{
+    background-color: blue;
+}
+    .box-top p{
+        color: white;
+        text-align: center;
+    }
+
+nav{
+    background-color: rgb(255, 255, 255)
+    padding: 20px 30px;
+    display: flex;
+    /*Menu distribuido horizontalmente*/
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /*Menu centrado con logo*/
+    /*flex-direction:column;
+    align-items:center;*/
+}
+
+    nav img{
+        width: 150px;
+        padding: 6px 30px;
+        /*display: flex;
+        justify-content: start;
+        align-items: center;*/
+    }
+
+        nav ul{
+            margin-right: 10px;
+            list-style: none;
+            display:flex;
+        }
+
+            nav ul li a{
+                text-decoration: none;
+                color: blue;
+                font-size: 1.1em;
+                margin-right: 45px;
+            }
+
+header img{
+    width: 100%;
+}
+
+header h1{
+    color: blue;
+    font-size: 3.5em;
+    line-height: 60px;
+}
+
+header p{
+    color: blue;
+    font-size: 1.6em;
+}
+
+/*main{
+}*/
+
+    main h1{
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+/*Secciones*/
+.container{
+    padding: 10px;
+    border:none;
+    background-color: white;
+    display: flex;
+}
+
+.justify-content{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.align-items{
+    align-items: center;
+}
+
+/*Banner*/
+.banner{
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 690px;
+}
+
+.banner-left{
+    align-items: center;
+}
+
+.bannner-right{
+    align-items: center;
+}
+
+.button{
+    background-color: rgb(153, 255, 0);
+    border-radius: 3px;
+    border-style: none;
+    padding: 10px;
+    font-weight:600;
+}
+
+.button a{
+    color: white;
+    font-size: 1.1em;
+    text-decoration-line: none;
+}
+
+
+/*Sections*/
+.proyectos{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 125px;
+}
+
+/*    .proyectos figure{
+        border:solid rgb(255, 255, 255) 1px;
+        border-radius: 5px;
+    }*/
+
+    .proyectos button{
+        background-color: blue;
+        width: 100%;
+        border-radius: 3px;
+        padding: 10px;
+        border-style: none;
+    }
+
+        .proyectos button a{
+            color: white;
+            font-size: 1.1em;
+            text-decoration: none;
+            font-weight:600;
+        }
+
+.clientes{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 125px;
+}
+
+    .clientes img{
+        width: 140px;
+        height: 70px;
+    }
+
+
+    
+.contacto{
+    background: rgb(153, 255, 0);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+}
+
+    .contacto label{
+        display: block;
+        color: blue;
+    }
+
+    .contacto form{
+        padding: 20px 30px;
+    }
+
+    .contacto iframe{
+            padding: 20px 30px;
+        }
+
+/*.btn-enviar{
+}*/
+
+/*.btn-cancelar{
+}*/
+
+footer{
+    background-color: blue;
+    color: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    footer svg{
+        width: 30px;
+        height: 30px;
+        fill: white;
+        margin-right: 15px;
+    }
+
+    footer ul{
+        display: flex;
+        align-content: space-between;
+        align-items: end;
+        list-style: none;
+    }
+
+        footer ul li a{
+            color:white;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+.whatsapp{
+    position: fixed;
+    right: 50px;
+    bottom: 125px;
+    width: 75px;
+    height: 75px;
+}
